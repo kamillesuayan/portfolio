@@ -1,0 +1,77 @@
+.subtitle {
+    font-size:18px;
+    position:absolute;
+    color:rgba(19, 6, 34, 0.7);
+}
+
+.tophalf {
+    padding-top:5rem;
+    padding-left:10%;
+    padding-right:17rem;
+    display:block;
+    float:left;
+    padding-bottom:5rem;
+}
+
+.bottomhalf {
+    justify-content: center;
+    align-items: center;
+    padding-left:10%;
+    display:block;
+    padding-bottom:1rem;
+}
+
+.aboutme {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 65px;
+    padding-top: 40px;
+}
+
+.darkPurple {
+    color: #6246B1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+.lightPurple {
+    color: #9E8CCE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+.shortBio {
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight:400;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 960px) {
+    .tophalf {
+        padding-top:5rem;
+        padding-left:10%;
+        padding-right:5rem;
+        display:block;
+        float:left;
+    }
+    .aboutme {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 40px;
+    }
+    
+    .darkPurple {
+        color: #6246B1;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+    }
+    
+    .lightPurple {
+        color: #9E8CCE;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+    }
+
+}

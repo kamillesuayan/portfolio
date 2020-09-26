@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: 'Inconsolata',monospace;
+  font-weight:bold;
+  background-color: whitesmoke;
+  color: #130523;
+}
+
+.footer {
+  text-align: center;
+  font-weight:2;
+  margin-bottom:2rem;
+
+}

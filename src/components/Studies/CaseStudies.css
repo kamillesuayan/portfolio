@@ -1,0 +1,59 @@
+.feature {
+    float: left;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom:20px;
+    width:300px;
+    height:200px;
+    object-fit:cover;
+
+}
+
+.fw {
+    font-size:18px;
+    position: relative;
+    color:rgba(19, 6, 34, 0.7);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.itemtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #130622;
+}
+
+.caption {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:2;
+    font-size: 16px;
+    color: #130622;
+}
+
+.view {
+    font-weight: 700;
+    color: #130622;
+}
+
+.view:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: #4d227e;
+}
+
+.underView {
+    margin-bottom:40px;
+}
+
+@media screen and (max-width: 1000px) {
+    .feature {
+        float: left;
+        border-radius: 8px;
+        margin-right:20px;
+        margin-bottom:20px;
+        width:400px;
+        height:300px;
+        object-fit:cover;
+    
+    }
+}
